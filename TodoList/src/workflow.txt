@@ -1,0 +1,32 @@
+first create todolistAPP.jsx 
+import react and hooks like usestate if needed
+
+make function todolist() which returns main content
+then, export default todolist
+
+....................
+
+Now open App.jsx
+
+and import our todolist function from todolistAPP file
+
+and make a function to return
+<todolist />
+then, export default App
+
+we can see out file structure is something like this->
+1)import header files
+2)make function
+3)export default App
+.....................
+
+function todolistAPP()
+
+here we first create 2 usestate hook variables for task array and new task string,
+means,
+for every new task we have to push in task array,
+
+both of these usestate variables, also have setter functions
+
+    const [tasks, setTasks] = useState([]);
+    const [newTask, setNewTasks] = useState([]);
